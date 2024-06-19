@@ -1,0 +1,28 @@
+
+Please re-write the code of `Machine Learning assisted material simulation practice` and save them into directory of your own name.
+
+```bash
+> git clone git@github.com:wangzyphysics/AI4S-Course.git
+> pip install -r requirements.txt
+> make init
+
+> tree .
+.
+├── AI4S-Course
+│   └── src
+│       ├── WangQingchang
+│       │   └── Chapter1
+│       │       └── lesson1
+│       └── XuYouwei
+│           └── Chapter1
+│               └── lesson1
+├── Makefile
+├── README
+└── requirements.txt
+
+8 directories, 3 files
+```
+
+Some basic git command and collaborating workflow can be accessed in here [https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow].
+
+
