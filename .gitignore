@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+*.egg-info/
+build/
+public/
+package/
+dist/
+
+# Compiled Object files
+*.c
+*.o
+
+# Compiled Static libraries
+*.a
+libsrc.a
+
+# Compiled Dynamic libraries
+*.so
+
+# fortran module files
+*.mod
+
+# user definied files
+.vscode/
+.idea/
+FPP/
+LIB/
+OBJ/
+F90wrap/
+tests/template_input.toml
+test/run_test/vasp_run/*
+test/run_test/result*
+test/run_test/error-record
+*optinfo.tar
+
+# f90wrap related
+fortran_src/*/.libs/
+fortran_src/*/F90wrap/
+fortran_src/*/FPP/
+fortran_src/*/src*/
+fortran_src/**/*.py
+fortran_src/**/*.py.bak
+fortran_src/*/*.c
+.f2py_f2cmap
+
+# mac cache files
+.DS_Store
+
+# binary files
+*.npy
+
+# log files
+*.log
+
+# structure files
+*.xyz
+
+# runtest
+run_test/
+tests/run_test/
+*.ipynb
+.coverage
+htmlcov
+coverage.xml
+
+# version log
+calypso/version.txt
+AUTHORS
+ChangeLog
+_version.py
+
+# env
+.python-version
+env_*/
+
+# pdm
+.pdm.toml
+
+# mypy
+.mypy_cache
+
+# doc
+docs/build*
+docs/developer_source/api/
+
